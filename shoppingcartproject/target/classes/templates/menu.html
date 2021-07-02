@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Main Menu </title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1>Welcome to Main Menu </h1>
+
+
+<div class="container text-center">
+<h3><a th:href="@{/user}">user</a></h3>
+<h3><a th:href="@{/productList}">product</a></h3>
+<h3><a th:href="@{/cart}">cart</a></h3>
+</div>
+</body>
+</html>
